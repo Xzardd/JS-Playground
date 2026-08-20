@@ -7,3 +7,5 @@ function greet(name) {
 
 console.log(greet(name));
 console.log("Age:", age);
+
+//inital learning
