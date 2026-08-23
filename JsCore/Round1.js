@@ -1,37 +1,29 @@
 let name = "Wiz";
 let age = 23;
-let city = "Chandigarh";
+let balance = 1500;
 
-console.log("Hello, my name is " + name);
-console.log("I am " + age + " years old");
-console.log("I live in " + city);
+console.log("Name: " + name);
+console.log("Age: " + age);
+console.log("Balance: ₹" + balance);
 
-let a = 10;
-let b = 20;
-
-let sum = a + b;
-let difference = b - a;
-let product = a * b;
-let division = b / a;
-
-console.log("Sum: " + sum);
-console.log("Difference: " + difference);
-console.log("Product: " + product);
-console.log("Division: " + division);
-
-if (age >= 18) {
-    console.log("You are an adult");
+if (balance >= 1000) {
+    console.log("You have enough money.");
 } else {
-    console.log("You are a minor");
+    console.log("You need more money.");
 }
 
-for (let i = 1; i <= 5; i++) {
-    console.log("Number: " + i);
+let spend = 400;
+balance = balance - spend;
+
+console.log("You spent: ₹" + spend);
+console.log("Remaining balance: ₹" + balance);
+
+for (let i = 1; i <= 3; i++) {
+    console.log("Transaction " + i);
 }
 
-function greet(name) {
-    console.log("Welcome, " + name);
+function showBalance() {
+    console.log("Current balance: ₹" + balance);
 }
 
-greet("Wiz");
-greet("Alex");
+showBalance();
