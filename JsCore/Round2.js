@@ -32,4 +32,27 @@ function greet() {
     console.log("Hello " + name);
 }
 
-greet();
+greet();let product = "Laptop";
+let price = 85000;
+let discount = 10;
+
+let discountAmount = price * discount / 100;
+let finalPrice = price - discountAmount;
+
+console.log("Product: " + product);
+console.log("Original Price: ₹" + price);
+console.log("Discount: " + discount + "%");
+console.log("Discount Amount: ₹" + discountAmount);
+console.log("Final Price: ₹" + finalPrice);
+
+if (finalPrice <= 80000) {
+    console.log("Good deal!");
+} else {
+    console.log("Still expensive.");
+}
+
+function showPrice() {
+    console.log("You need ₹" + finalPrice + " to buy this.");
+}
+
+showPrice();
