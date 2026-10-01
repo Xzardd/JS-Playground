@@ -4,6 +4,6 @@ const accountId = 23
 let accountName = "Raj"
 
 accountCity = "Patna"
-accountState = "Rest"
+accountState = "Working"
 
-console.table([accountId, accountName, accountCity, accountCity])
+console.table([accountId, accountName, accountCity, accountState])
