@@ -17,3 +17,29 @@ let state = null //null --> stand alone value
 
 console.log(typeof null)
 console.log(typeof undefined)
+
+//primitive data types
+//7 diff types --> string number null undefined symbol boolean bigint
+
+//Reference (Non Primitive)
+//Array objects functions
+
+const heros = ["Ironman", "Spiderman", "Batman"];
+
+let myObj = {
+    name : farhan,
+    age: 22,
+}
+
+const myFunction = function(){
+    console.log("Basic Syntax")
+}
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+
+//  Stack for primitive  --> get original value
+//  Heap for Non primitive --> gets reference of value
+
+
