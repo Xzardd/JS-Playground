@@ -29,4 +29,4 @@ The goal is to build a strong understanding of **JavaScript fundamentals, proble
 - Callbacks
 - Closures
 - `this` keyword
-- Prototypes
+
