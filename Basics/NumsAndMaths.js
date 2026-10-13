@@ -14,7 +14,7 @@ const otherNumber = 23.7654;
 
 const hundreds = 1000000;
 
-// console.log(hundreds.toLocaleString('en-IN'));
+// console.log(hundreds.toLocaleString('en-IN')); //Changing to indian conversion value
 
 // console.log(Math.abs(-4)); //absolute value
 // console.log(Math.ceil(4.2)); // top value
